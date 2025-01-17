@@ -1,0 +1,8 @@
+﻿  SFML.cpp
+C:\Users\Leos\Documents\VSPROJEKTY\SFML\SFML\SFML.cpp(22,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Leos\Documents\VSPROJEKTY\SFML\SFML\SFML.cpp(228,37): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SFML.vcxproj -> C:\Users\Leos\Documents\VSPROJEKTY\SFML\x64\Debug\SFML.exe

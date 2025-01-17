@@ -1,0 +1,13 @@
+﻿  SFML.cpp
+  Source.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001: Invalid command line switch for "link.exe". System.ArgumentOutOfRangeException: Length cannot be less than zero.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001: Parameter name: length
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at System.String.Substring(Int32 startIndex, Int32 length)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.VCToolTask.EmitStringArraySwitch(CommandLineBuilder builder, ToolSwitch toolSwitch, CommandLineFormat format, EscapeFormat escapeFormat)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.VCToolTask.GenerateCommandsAccordingToType(CommandLineBuilder builder, ToolSwitch toolSwitch, CommandLineFormat format, EscapeFormat escapeFormat)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.VCToolTask.GenerateCommandsAccordingToType(CommandLineBuilder builder, ToolSwitch toolSwitch, Boolean dummyForBackwardCompatibility, CommandLineFormat format, EscapeFormat escapeFormat)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.VCToolTask.GenerateResponseFileCommandsExceptSwitches(String[] switchesToRemove, CommandLineFormat format, EscapeFormat escapeFormat)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.Link.GenerateResponseFileCommands(CommandLineFormat format, EscapeFormat escapeFormat)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.CPPTasks.VCToolTask.GenerateResponseFileCommands()
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6001:    at Microsoft.Build.Utilities.ToolTask.Execute()
