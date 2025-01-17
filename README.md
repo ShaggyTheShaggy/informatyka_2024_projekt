@@ -1,0 +1,1 @@
+# informatyka_2024_projekt
